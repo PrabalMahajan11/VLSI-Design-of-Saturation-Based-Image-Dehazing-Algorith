@@ -3,9 +3,9 @@
 • Proposed a 7-stage pipelined VLSI architecture for real-time image dehazing based on dark channel prior and
 saturation of hazy/haze-free images. Estimates atmospheric light using 15x15 minimum filter on downsampled
 image.
-• ASIC implementation shows the architecture can process 4K video at ¿70 fps using only 13.2k gates. Making it
-hardware-efficient for real-time applications like remote sensing, ADAS etc. Achieves higher throughput and
-lower power than prior arts.
+• Simulated the design on vivado for single-image. 
+Taking input through file read and exporting output to the same folder.
+
 
 ## Block diagram of the proposed VLSI architecture for dehazing.
 ![block_diagram_hW_architecture](https://github.com/PrabalMahajan11/VLSI-Design-of-Saturation-Based-Image-Dehazing-Algorith/assets/100370090/79720e5f-7b0e-4d5b-bb35-6e2918966c54)
