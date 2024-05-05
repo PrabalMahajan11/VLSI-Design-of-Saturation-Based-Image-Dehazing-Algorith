@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Apr  6 01:35:39 2024
+# Process ID: 21512
+# Current directory: C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25148 C:\Users\aweso\OneDrive\Desktop\Prabal_MR\vivado\VIVADO.xpr
+# Log file: C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/vivado.log
+# Journal file: C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado\vivado.jou
+# Running On: LAPTOP-JEFQHNUT, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/VIVADO.xpr
+update_compile_order -fileset sources_1
+save_project_as project_Prabal C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/project_Prabal -force
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+update_compile_order -fileset sim_1
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+relaunch_sim
+relaunch_sim
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/PIC_PATH}} 
+relaunch_sim
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/iCode}} 
+relaunch_sim
+relaunch_sim
+close_sim
+close_design
+launch_simulation
+open_wave_config C:/Users/aweso/OneDrive/Desktop/Prabal_MR/vivado/bmp_sim_VIP_tb_behav.wcfg
+source haze_removal_tb.tcl
+relaunch_sim
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/cmos_clken_r}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/cmos_clken}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/cmos_vsync_r}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/cmos_href_r}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/hcnt}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/vcnt}} 
+current_wave_config {bmp_sim_VIP_tb_behav.wcfg}
+add_wave {{/haze_removal_tb/u_sim_cmos0/frame_valid_ahead}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+run 2000 us
+run 2000 us
+run all
+close_sim

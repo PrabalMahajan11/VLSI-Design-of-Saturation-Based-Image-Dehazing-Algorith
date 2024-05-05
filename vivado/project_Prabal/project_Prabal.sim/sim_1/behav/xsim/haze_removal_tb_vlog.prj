@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../RTL/src/VIP_RGB888_YCbCr444.v" \
+"../../../../../../RTL/src/calculate_A.v" \
+"../../../../../../RTL/src/dark_channel.v" \
+"../../../../../../RTL/src/fifo_ram.v" \
+"../../../../../../RTL/src/haze_remove_cal.v" \
+"../../../../../../RTL/src/haze_remove_top.v" \
+"../../../../../../RTL/src/matrix_generate_3x3.v" \
+"../../../../../../RTL/src/one_column_ram.v" \
+"../../../../../../RTL/src/search_block_min.v" \
+"../../../../../../RTL/src/sort3.v" \
+"../../../../../../RTL/src/src_min.v" \
+"../../../../../../RTL/src/time_alignment.v" \
+"../../../../../../RTL/src/tx_get.v" \
+"../../../../../../RTL/src/ycbcr2rgb.v" \
+
+sv xil_defaultlib  \
+"../../../../../../RTL/tb/sim_cmos_tb.sv" \
+"../../../../../../RTL/tb/video_to_pic.sv" \
+"../../../../../../RTL/tb/haze_removal_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

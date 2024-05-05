@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/VIP_RGB888_YCbCr444.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VIP_RGB888_YCbCr444
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/calculate_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculate_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/dark_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dark_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/fifo_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/haze_remove_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module haze_remove_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/haze_remove_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module haze_removal_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/matrix_generate_3x3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_generate_3x3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/one_column_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_column_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/search_block_min.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module search_block_min
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/sort3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sort3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/src_min.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module src_min
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/time_alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_alignment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/tx_get.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_get
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/src/ycbcr2rgb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module YCbCr2RGB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/tb/sim_cmos_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_cmos
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/tb/video_to_pic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_to_pic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aweso/OneDrive/Desktop/Prabal_MR/RTL/tb/haze_removal_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module haze_removal_tb

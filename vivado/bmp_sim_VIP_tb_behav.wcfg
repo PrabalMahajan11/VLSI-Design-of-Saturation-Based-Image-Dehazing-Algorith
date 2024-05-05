@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="haze_removal_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="haze_removal_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="23.837167500 ms"></ZoomStartTime>
+      <ZoomEndTime time="151.479856501 ms"></ZoomEndTime>
+      <Cursor1Time time="130.206075000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/haze_removal_tb/cmos_clk" type="logic">
+      <obj_property name="ElementShortName">cmos_clk</obj_property>
+      <obj_property name="ObjectShortName">cmos_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/cmos_rst_n" type="logic">
+      <obj_property name="ElementShortName">cmos_rst_n</obj_property>
+      <obj_property name="ObjectShortName">cmos_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/cmos_vsync" type="logic">
+      <obj_property name="ElementShortName">cmos_vsync</obj_property>
+      <obj_property name="ObjectShortName">cmos_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/cmos_href" type="logic">
+      <obj_property name="ElementShortName">cmos_href</obj_property>
+      <obj_property name="ObjectShortName">cmos_href</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/cmos_clken" type="logic">
+      <obj_property name="ElementShortName">cmos_clken</obj_property>
+      <obj_property name="ObjectShortName">cmos_clken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/cmos_data" type="array">
+      <obj_property name="ElementShortName">cmos_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">cmos_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/haze_removal_vsync" type="logic">
+      <obj_property name="ElementShortName">haze_removal_vsync</obj_property>
+      <obj_property name="ObjectShortName">haze_removal_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/haze_removal_hsync" type="logic">
+      <obj_property name="ElementShortName">haze_removal_hsync</obj_property>
+      <obj_property name="ObjectShortName">haze_removal_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/haze_removal_de" type="logic">
+      <obj_property name="ElementShortName">haze_removal_de</obj_property>
+      <obj_property name="ObjectShortName">haze_removal_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/haze_removal_data" type="array">
+      <obj_property name="ElementShortName">haze_removal_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">haze_removal_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/u_video_to_pic0/BmpHead" type="array">
+      <obj_property name="ElementShortName">BmpHead[0:53][7:0]</obj_property>
+      <obj_property name="ObjectShortName">BmpHead[0:53][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/u_sim_cmos0/hcnt" type="array">
+      <obj_property name="ElementShortName">hcnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">hcnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/u_sim_cmos0/vcnt" type="array">
+      <obj_property name="ElementShortName">vcnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">vcnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/haze_removal_tb/u_sim_cmos0/frame_valid_ahead" type="logic">
+      <obj_property name="ElementShortName">frame_valid_ahead</obj_property>
+      <obj_property name="ObjectShortName">frame_valid_ahead</obj_property>
+   </wvobject>
+</wave_config>
